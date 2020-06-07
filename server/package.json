@@ -6,11 +6,9 @@
   "scripts": {
     "start": "node index.js",
     "server": "nodemon index.js",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "@GabrielModog",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
